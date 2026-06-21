@@ -90,13 +90,13 @@ npm run dist
 | `Ctrl+B` | 切换侧边栏 |
 | `Ctrl+J` | 切换终端 |
 
-### 💝 支持作者
+### 💝 支持作者（可选）
 
-如果 TAOTAO 帮到了你，欢迎扫码请我喝杯咖啡 ☕
+TAOTAO 是 MIT 协议开源软件，永久免费。
 
-> 顶栏 → ❤️ 按钮 → 选择 微信/支付宝 扫码
+顶栏的 ❤️ 按钮预留了 **捐赠入口**（微信 / 支付宝）—— 如果你以后想接受捐赠，把收款码图片放到 `assets/donate/wechat.png` 和 `alipay.png` 即可，界面会自动显示。
 
-微信 / 支付宝收款码位于 `assets/donate/`。
+> 当前未配置收款码，点击 ❤️ 会有占位提示。
 
 ### 🤝 贡献
 
@@ -187,13 +187,13 @@ Output: `release\TAOTAO Setup 1.0.0.exe`
 | `Ctrl+B` | Toggle sidebar |
 | `Ctrl+J` | Toggle terminal |
 
-### 💝 Support
+### 💝 Support (optional)
 
-If TAOTAO helps you, buy me a coffee ☕
+TAOTAO is MIT-licensed and free forever.
 
-> Top bar → ❤️ icon → choose WeChat / Alipay
+The ❤️ button in the top bar is a **placeholder for donations** (WeChat / Alipay). If you ever want to accept donations, just drop your QR code images into `assets/donate/wechat.png` and `assets/donate/alipay.png` — the UI will display them automatically.
 
-QR codes live in `assets/donate/`.
+> No QR codes configured right now. Clicking ❤️ shows a placeholder.
 
 ### 🤝 Contributing
 
