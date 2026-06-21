@@ -1,0 +1,75 @@
+# ===== 依赖 =====
+node_modules/
+jspm_packages/
+bower_components/
+
+# ===== 编译产物 =====
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# ===== 打包产物 =====
+release/
+release2/
+*.exe
+*.dmg
+*.deb
+*.AppImage
+*.snap
+
+# ===== 环境变量 / 密钥 =====
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+secrets.json
+config.local.json
+
+# ===== 用户数据 =====
+.electron-data/
+userData/
+*.log
+logs/
+*.log
+
+# ===== 编辑器 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== 测试 =====
+coverage/
+.nyc_output/
+*.lcov
+
+# ===== 临时文件 =====
+.tmp/
+.cache/
+*.tmp
+temp/
+.npm-cache/
+.electron-gyp/
+.electron-cache/
+
+# ===== 敏感信息（双重保险） =====
+**/secrets/
+**/*.key
+**/*.pem
+**/wechat-*.png
+**/alipay-*.png
+
+# ===== 项目特定 =====
+release/builder-debug.yml
+release/builder-effective-config.yaml
+
+# ===== 用户本地配置 =====
+.idea/
+*.iml
+.vscode/settings.json
+.history/
